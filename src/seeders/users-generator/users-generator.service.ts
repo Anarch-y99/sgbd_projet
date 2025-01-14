@@ -29,5 +29,3 @@ export class UsersGeneratorService {
     return `Generated and saved ${number} users`;
   }
 }
-
-

@@ -6,6 +6,6 @@ import { UsersModule } from 'src/users/users.module';
 @Module({
   providers: [UsersGeneratorService],
   controllers: [GeneratorController],
-  imports: [UsersModule]
+  imports: [UsersModule],
 })
 export class SeedersModule {}

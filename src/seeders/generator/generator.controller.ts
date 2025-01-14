@@ -9,7 +9,4 @@ export class GeneratorController {
   users() {
     return this.userGeneratorService.generateAndSave();
   }
-
-
-  
 }
