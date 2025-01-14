@@ -7,7 +7,7 @@ export class GeneratorController {
 
   @Get('/users')
   users() {
-    return this.userGeneratorService.generate();
+    return this.userGeneratorService.generateAndSave();
   }
 
 
